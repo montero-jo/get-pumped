@@ -1,0 +1,204 @@
+
+            body {
+                background:rgba(73, 84, 182, 1);
+                color:white;
+                border: 1px;
+                font-family: "brother-1816", sans-serif;
+            }
+
+            a { text-decoration: none; }
+
+            logo{
+                position: fixed;
+                height: 100%;
+                margin-top: 28px;
+                margin-left: 30px;
+                font-size: 42pt;
+                font-weight: 1000;
+                font-style: normal;
+                letter-spacing: -3.55pt;
+                
+            }
+
+            h3{
+                font-weight: lighter;
+                font-size: 10pt;
+                padding-left:1040px;
+                width: 400px;
+
+            }
+
+            a:link,
+            a:visited {
+                color:rgb(255, 255, 255);
+
+            }
+
+            .line {
+                height:90vh;
+                width:0;
+                border-right:1px solid white;
+                position:fixed;
+                top:5vh;
+                pointer-events:none;
+
+            }
+
+            .line1{ 
+                left:33.3333333333333%; }
+
+            .line2{ 
+                left:66.666666%; }
+
+            .menu {
+                padding-top: 6%;
+                font-size: medium;
+                position: fixed;
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            .menu a {
+                padding-left: 30px; 
+                margin-top: 10px;
+                display:flex;
+                font-weight: 200;
+                font-style: normal;
+            }
+
+            .submenu {
+                line-height: 1.05;
+                position:fixed;
+                bottom:1em;
+                left:1.1em;
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                font-size:2em;
+                font-style: bold;
+                font-weight: 700;
+            }
+
+            .gymbud {    
+                max-height: 500px;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .gymbud-intro {    
+                max-width: 500px;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                transform: translate(-50%, -50%);
+            }
+
+            .intro-button {    
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                visibility: hidden;
+            }
+
+            .intro-button:hover {
+                visibility: visible;
+            }
+
+    
+            .gymbud2 {    
+                max-width: 300px;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .gymbud3{
+                max-height: 300px;
+                margin-top: 5pt;
+                left: 20%;
+            }
+
+            .right-text{
+                margin-bottom: 100px;
+                font-size: 12pt;
+                font-weight: normal;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .grid-container {
+                display:grid;
+                grid-template-columns:1fr 1fr 1fr;
+            }
+
+            .right {
+                padding:2em;
+            }
+
+            /*
+            p
+            h1
+            h2
+            h3
+            image
+            a
+            ol
+            ul
+            li
+            em
+            body
+            */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.gymbud-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    /* background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25vw;
+    height: 100vh;
+    transition: all 700ms ease;
+}
+#first
+{
+    opacity: 1;
+}
+#second
+{
+    opacity: 0;
+}
+#first:hover{
+    opacity: 0;
+}
+#second:hover
+{
+    opacity: 1;
+} */ 
